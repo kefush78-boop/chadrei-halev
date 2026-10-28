@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+:root {
+  --background: #faf3ea;
+  --foreground: #3a2a1e;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-heebo);
+  --font-serif: var(--font-frank);
+
+  /* חמרה - terracotta, accent ראשי */
+  --color-clay-50: #fbf0ea;
+  --color-clay-100: #f5ddd0;
+  --color-clay-200: #e9bba1;
+  --color-clay-300: #dc9972;
+  --color-clay-400: #c97a4e;
+  --color-clay-500: #b15f37;
+  --color-clay-600: #96492a;
+  --color-clay-700: #7a3a22;
+  --color-clay-800: #5e2c1a;
+  --color-clay-900: #452012;
+
+  /* מוקה - חום עשיר, לניווט וטקסט */
+  --color-mocha-50: #f3ede8;
+  --color-mocha-100: #e2d2c4;
+  --color-mocha-200: #c7ab8c;
+  --color-mocha-300: #a9865e;
+  --color-mocha-400: #8a6842;
+  --color-mocha-500: #6f4e37;
+  --color-mocha-600: #5b3f2c;
+  --color-mocha-700: #493222;
+  --color-mocha-800: #382619;
+  --color-mocha-900: #281b12;
+
+  /* נס קפה - בז' חמים, לרקעים רכים */
+  --color-coffee-50: #fcf8f1;
+  --color-coffee-100: #f5ead4;
+  --color-coffee-200: #e9d2aa;
+  --color-coffee-300: #dbb87d;
+  --color-coffee-400: #cda05a;
+  --color-coffee-500: #bc8a45;
+  --color-coffee-600: #9c6f37;
+  --color-coffee-700: #7b572c;
+
+  /* ירוק מרווה - אקצנט משני */
+  --color-sage-50: #f1f4ee;
+  --color-sage-100: #dee6d5;
+  --color-sage-200: #c0d0af;
+  --color-sage-300: #a0b98a;
+  --color-sage-400: #86a56c;
+  --color-sage-500: #6e8c55;
+  --color-sage-600: #576e43;
+  --color-sage-700: #445536;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
